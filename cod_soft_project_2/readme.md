@@ -39,7 +39,7 @@ You can install these dependencies via pip:
 
 ```bash
 pip install numpy pandas matplotlib seaborn plotly scikit-learn
-Usage
+##Usage
 Clone the repository to your local machine:
 bash
 Copy code
@@ -53,10 +53,7 @@ Follow along with the code in the notebook to explore the dataset, preprocess th
 Contributing
 Contributions to this project are welcomed! If you find any bugs, have feature requests, or want to contribute enhancements, please feel free to open an issue or submit a pull request.
 
-License
+##License
 This project is licensed under the MIT License.
-
-vbnet
-Copy code
 
 Feel free to copy and paste this Markdown content into your README.md file! Let me know
