@@ -1,6 +1,6 @@
-# IMDb Movie Ratings Prediction
+# Titanic Survival Prediction
 
-Welcome to the IMDb Movie Ratings Prediction project! In this project, we leverage data science techniques to predict IMDb movie ratings based on various attributes such as release year, duration, genre, director, and cast. This README provides an overview of the project, its contents, and instructions for usage.
+Welcome to the Titanic Survival Prediction project! In this project, we perform exploratory data analysis (EDA) and build a machine learning model to predict the survival of passengers aboard the Titanic. This README provides an overview of the project, its contents, and instructions for usage.
 
 ## Table of Contents
 
@@ -13,14 +13,14 @@ Welcome to the IMDb Movie Ratings Prediction project! In this project, we levera
 
 ## Introduction
 
-This project aims to explore and analyze a dataset containing information about Indian movies sourced from IMDb. We employ data cleaning, exploratory data analysis (EDA), feature engineering, and machine learning techniques to build a predictive model for IMDb movie ratings.
+This project analyzes the Titanic dataset, which contains information about passengers aboard the Titanic, including details such as their age, gender, class, and survival status. We aim to explore the data, visualize important insights, and build a predictive model to determine the likelihood of a passenger surviving the Titanic disaster.
 
 ## Project Structure
 
 The project repository contains the following files:
 
-- `IMDb_Movie_Ratings_Prediction.ipynb`: Jupyter Notebook containing the Python code for data preprocessing, analysis, modeling, and prediction.
-- `IMDb Movies India.csv`: Dataset containing information about Indian movies sourced from IMDb.
+- `titanic_survival_prediction.ipynb`: Jupyter Notebook containing the Python code for data preprocessing, exploratory data analysis (EDA), visualization, and machine learning model building.
+- `Titanic-Dataset.csv`: Dataset containing information about passengers aboard the Titanic.
 - `README.md`: This file, providing an overview of the project and instructions for usage.
 - `LICENSE`: License information for the project.
 
@@ -28,8 +28,8 @@ The project repository contains the following files:
 
 To run the code in the Jupyter Notebook, you'll need the following Python libraries:
 
-- `numpy`
 - `pandas`
+- `numpy`
 - `matplotlib`
 - `seaborn`
 - `plotly`
@@ -38,20 +38,25 @@ To run the code in the Jupyter Notebook, you'll need the following Python librar
 You can install these dependencies via pip:
 
 ```bash
-pip install numpy pandas matplotlib seaborn plotly scikit-learn
-Usage
+pip install pandas numpy matplotlib seaborn plotly scikit-learn
+```
+
+##Usage
 Clone the repository to your local machine:
 bash
-Copy code
-git clone https://github.com/your-username/imdb-movie-ratings-prediction.git
+```
+git clone https://github.com/your-username/titanic-survival-prediction.git
+```
 Navigate to the project directory:
+```
 bash
-Copy code
-cd imdb-movie-ratings-prediction
-Open and run the Jupyter Notebook IMDb_Movie_Ratings_Prediction.ipynb using Jupyter Notebook or JupyterLab.
-Follow along with the code in the notebook to explore the dataset, preprocess the data, build the predictive model, and predict IMDb ratings for new movies.
+
+cd titanic-survival-prediction
+```
+Open and run the Jupyter Notebook titanic_survival_prediction.ipynb using Jupyter Notebook or JupyterLab.
+Follow along with the code in the notebook to explore the dataset, preprocess the data, visualize insights, build the predictive model, and make predictions.
 Contributing
 Contributions to this project are welcomed! If you find any bugs, have feature requests, or want to contribute enhancements, please feel free to open an issue or submit a pull request.
 
-License
+##License
 This project is licensed under the MIT License.
