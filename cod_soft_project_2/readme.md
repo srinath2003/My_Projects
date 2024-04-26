@@ -44,13 +44,8 @@ pip install numpy pandas matplotlib seaborn plotly scikit-learn
 
 1. **Clone the repository to your local machine:**
 
-```bash
-git clone https://github.com/srinath2003/My_Projects/cod_soft_project_2.git
-```
 2. **Navigate to the project directory:**
-```bash
-cd cod_soft_project_2
-```
+
 3. **Open and run the Jupyter Notebook Cod_Soft_task_2.ipynb using Jupyter Notebook or JupyterLab.**
 Follow along with the code in the notebook to explore the dataset, preprocess the data, build the predictive model, and predict IMDb ratings for new movies.
 ---
