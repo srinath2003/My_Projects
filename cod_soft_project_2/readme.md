@@ -51,7 +51,7 @@ git clone https://github.com/srinath2003/My_Projects/cod_soft_project_2.git
 ```bash
 cd cod_soft_project_2
 ```
-3. **Open and run the Jupyter Notebook IMDb_Movie_Ratings_Prediction.ipynb using Jupyter Notebook or JupyterLab.**
+3. **Open and run the Jupyter Notebook Cod_Soft_task_2.ipynb using Jupyter Notebook or JupyterLab.**
 Follow along with the code in the notebook to explore the dataset, preprocess the data, build the predictive model, and predict IMDb ratings for new movies.
 ---
 
