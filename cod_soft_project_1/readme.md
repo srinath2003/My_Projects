@@ -40,22 +40,22 @@ You can install these dependencies via pip:
 ```bash
 pip install pandas numpy matplotlib seaborn plotly scikit-learn
 ```
-
 ##Usage
-Clone the repository to your local machine:
-bash
+
+1. ** Clone the repository to your local machine:**
+
 ```
+bash
 git clone https://github.com/your-username/titanic-survival-prediction.git
 ```
-Navigate to the project directory:
+2. **Navigate to the project directory:**
 ```
 bash
-
 cd titanic-survival-prediction
 ```
-Open and run the Jupyter Notebook titanic_survival_prediction.ipynb using Jupyter Notebook or JupyterLab.
+3. **Open and run the Jupyter Notebook titanic_survival_prediction.ipynb using Jupyter Notebook or JupyterLab.**
 Follow along with the code in the notebook to explore the dataset, preprocess the data, visualize insights, build the predictive model, and make predictions.
-Contributing
+##Contributing
 Contributions to this project are welcomed! If you find any bugs, have feature requests, or want to contribute enhancements, please feel free to open an issue or submit a pull request.
 
 ##License
