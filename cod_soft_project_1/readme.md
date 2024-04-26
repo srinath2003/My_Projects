@@ -53,10 +53,10 @@ git clone https://github.com/your-username/titanic-survival-prediction.git
 bash
 cd titanic-survival-prediction
 ```
-3. **Open and run the Jupyter Notebook titanic_survival_prediction.ipynb using Jupyter Notebook or JupyterLab.**
+3. **Open and run the Jupyter Notebook Cod_Soft_task_2.ipynb using Jupyter Notebook or JupyterLab.**
 Follow along with the code in the notebook to explore the dataset, preprocess the data, visualize insights, build the predictive model, and make predictions.
-##Contributing
+## Contributing
 Contributions to this project are welcomed! If you find any bugs, have feature requests, or want to contribute enhancements, please feel free to open an issue or submit a pull request.
 
-##License
+## License
 This project is licensed under the MIT License.
