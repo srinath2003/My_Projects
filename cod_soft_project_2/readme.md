@@ -39,13 +39,14 @@ You can install these dependencies via pip:
 
 ```bash
 pip install numpy pandas matplotlib seaborn plotly scikit-learn
+```
 ## Usage
 
 1. **Clone the repository to your local machine:**
 
 ```bash
 git clone https://github.com/your-username/imdb-movie-ratings-prediction.git
-'''
+```
 Navigate to the project directory:
 bash
 Copy code
