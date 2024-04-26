@@ -45,7 +45,7 @@ pip install pandas numpy matplotlib seaborn plotly scikit-learn
 1. **Clone the repository to your local machine:**
 bash
 ```
-git clone https://github.com/srinath2003/CodSoft_Project1.git
+git clone https://github.com/srinath2003/My_Projects/tree/main/cod_soft_project_1
 ```
 2. **Navigate to the project directory:**
 bash
