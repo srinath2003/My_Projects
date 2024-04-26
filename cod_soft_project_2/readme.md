@@ -47,16 +47,16 @@ pip install numpy pandas matplotlib seaborn plotly scikit-learn
 ```bash
 git clone https://github.com/your-username/imdb-movie-ratings-prediction.git
 ```
-Navigate to the project directory:
-bash
-Copy code
+2. **Navigate to the project directory:**
+```bash
 cd imdb-movie-ratings-prediction
-Open and run the Jupyter Notebook IMDb_Movie_Ratings_Prediction.ipynb using Jupyter Notebook or JupyterLab.
+```
+3. **Open and run the Jupyter Notebook IMDb_Movie_Ratings_Prediction.ipynb using Jupyter Notebook or JupyterLab.**
 Follow along with the code in the notebook to explore the dataset, preprocess the data, build the predictive model, and predict IMDb ratings for new movies.
-Contributing
+##Contributing
 Contributions to this project are welcomed! If you find any bugs, have feature requests, or want to contribute enhancements, please feel free to open an issue or submit a pull request.
 
 ##License
 This project is licensed under the MIT License.
 
-Feel free to copy and paste this Markdown content into your README.md file! Let me know
+
