@@ -42,15 +42,14 @@ pip install pandas numpy matplotlib seaborn plotly scikit-learn
 ```
 ## Usage
 
-1. ** Clone the repository to your local machine:**
-
-```
+1. **Clone the repository to your local machine:**
 bash
+```
 git clone https://github.com/your-username/titanic-survival-prediction.git
 ```
 2. **Navigate to the project directory:**
-```
 bash
+```
 cd titanic-survival-prediction
 ```
 3. **Open and run the Jupyter Notebook Cod_Soft_task_2.ipynb using Jupyter Notebook or JupyterLab.**
