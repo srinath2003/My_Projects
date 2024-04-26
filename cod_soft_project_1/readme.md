@@ -36,8 +36,8 @@ To run the code in the Jupyter Notebook, you'll need the following Python librar
 - `scikit-learn`
 
 You can install these dependencies via pip:
-
-```bash
+bash
+```
 pip install pandas numpy matplotlib seaborn plotly scikit-learn
 ```
 ## Usage
@@ -45,7 +45,7 @@ pip install pandas numpy matplotlib seaborn plotly scikit-learn
 1. **Clone the repository to your local machine:**
 bash
 ```
-git clone https://github.com/your-username/titanic-survival-prediction.git
+git clone https://github.com/srinath2003/CodSoft_Project1.git
 ```
 2. **Navigate to the project directory:**
 bash
