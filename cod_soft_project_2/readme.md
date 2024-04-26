@@ -45,7 +45,7 @@ pip install numpy pandas matplotlib seaborn plotly scikit-learn
 
 ```bash
 git clone https://github.com/your-username/imdb-movie-ratings-prediction.git
-
+'''
 Navigate to the project directory:
 bash
 Copy code
