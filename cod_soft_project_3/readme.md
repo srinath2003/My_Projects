@@ -29,7 +29,7 @@ The Iris dataset is loaded from a CSV file (`IRIS.csv`). The goal is to predict 
 
 ## Contributors
 
-- [Srinath](mailto:srinathranganathan432@email.com)
+- Contact me through e-mail [Srinath](mailto:srinathranganathan432@email.com)
 
 ## License
 
