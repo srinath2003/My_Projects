@@ -39,24 +39,21 @@ You can install these dependencies via pip:
 
 ```bash
 pip install numpy pandas matplotlib seaborn plotly scikit-learn
-Usage
-Clone the repository to your local machine:
-bash
-Copy code
-git clone https://github.com/your-username/imdb-movie-ratings-prediction.git
-Navigate to the project directory:
-bash
-Copy code
-cd imdb-movie-ratings-prediction
-Open and run the Jupyter Notebook IMDb_Movie_Ratings_Prediction.ipynb using Jupyter Notebook or JupyterLab.
+```
+## Usage
+
+1. **Clone the repository to your local machine:**
+
+2. **Navigate to the project directory:**
+
+3. **Open and run the Jupyter Notebook Cod_Soft_task_2.ipynb using Jupyter Notebook or JupyterLab.**
 Follow along with the code in the notebook to explore the dataset, preprocess the data, build the predictive model, and predict IMDb ratings for new movies.
-Contributing
-Contributions to this project are welcomed! If you find any bugs, have feature requests, or want to contribute enhancements, please feel free to open an issue or submit a pull request.
+---
 
-License
-This project is licensed under the MIT License.
+## Contributing
+ Contributions to this project are welcomed! If you find any bugs, have feature requests, or want to contribute enhancements, please feel free to open an issue or submit a pull request.
+---
+## License
+ This project is licensed under the MIT License.
 
-vbnet
-Copy code
 
-Feel free to copy and paste this Markdown content into your README.md file! Let me know
