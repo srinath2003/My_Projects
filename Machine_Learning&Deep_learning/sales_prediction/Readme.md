@@ -41,8 +41,8 @@ The dataset used in this project is sourced from a CSV file named `advertising.c
 3. Follow the instructions in the notebook to load the dataset, analyze the data, train the model, and make sales predictions.
 
 ## Author
-[Your Name]
-[Your Email]
+[Srinath2003]
+[srinathranganathan432@gmail.com]
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
