@@ -28,6 +28,15 @@ This repository contains a YOLOv8 model trained to detect four animal classes: e
 ## Inference
    Use the best.pt for inferencing , elephant_project_live_camera.ipynb file runs the model with live inbuilt camera , if the inference confidence are above .80 the model label the object in the live feed.
    ![Confusion Matrix of four classes](https://github.com/srinath2003/My_Projects/blob/171bb36f6381e8ab76a637b252c75e19e69914a3/Machine_Learning%26Deep_learning/ZEBR_Detector/runs/detect/val/confusion_matrix_normalized.png)
+## Output
+   ![imes](https://github.com/srinath2003/My_Projects/blob/main/Machine_Learning%26Deep_learning/ZEBR_Detector/Output_with_live_cam/ele1)
+   ![imes](https://github.com/srinath2003/My_Projects/blob/main/Machine_Learning%26Deep_learning/ZEBR_Detector/Output_with_live_cam/ele2)
+   ![imes](https://github.com/srinath2003/My_Projects/blob/main/Machine_Learning%26Deep_learning/ZEBR_Detector/Output_with_live_cam/image00)
+   ![imes](https://github.com/srinath2003/My_Projects/blob/main/Machine_Learning%26Deep_learning/ZEBR_Detector/Output_with_live_cam/image01)
+   ![imes](https://github.com/srinath2003/My_Projects/blob/main/Machine_Learning%26Deep_learning/ZEBR_Detector/Output_with_live_cam/image31)
+   ![imes](https://github.com/srinath2003/My_Projects/blob/main/Machine_Learning%26Deep_learning/ZEBR_Detector/Output_with_live_cam/image30)
+   ![imes](https://github.com/srinath2003/My_Projects/blob/main/Machine_Learning%26Deep_learning/ZEBR_Detector/Output_with_live_cam/image_31)
+   ![imes](https://github.com/srinath2003/My_Projects/blob/main/Machine_Learning%26Deep_learning/ZEBR_Detector/Output_with_live_cam/image_1_0)
 ## Usage
    The Model can classify four different animals namely , Elephant , Zebra , Buffalo and Rhino.
    
