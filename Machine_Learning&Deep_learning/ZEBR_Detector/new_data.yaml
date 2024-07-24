@@ -1,0 +1,5 @@
+train: C:\Users\srina\#Python_Projects\Elephant_project_rework\new_data\train
+val: C:\Users\srina\#Python_Projects\Elephant_project_rework\new_data\val
+
+nc: 4  # number of classes
+names: ['buffalo', 'elephant', 'rhino', 'zebra']  # class names
