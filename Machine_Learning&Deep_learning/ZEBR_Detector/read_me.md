@@ -8,6 +8,7 @@ This repository contains a YOLOv8 model trained to detect four animal classes: e
 - [Dataset](#dataset)
 - [Training](#training)
 - [Inference](#inference)
+- [Output](#output)
 - [Usage](#usage)
 
 ## Installation
