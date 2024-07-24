@@ -15,7 +15,7 @@ This repository contains a YOLOv8 model trained to detect four animal classes: e
 1. **Clone the Repository**
    ```bash
    git clone <github-repo-link>
-   cd <github-repo-directory> ```
+   cd <github-repo-directory> 
 2. **Open the Cloned directory**
      Before Training the model and inferencing with .pt file ,and clone the yolo8 series from the official site or from the github. Use GPU for faster training.
 
