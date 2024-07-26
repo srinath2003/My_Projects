@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surveillance App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('/static/image1.jpeg'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        h1 {
+            margin-top: 50px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        #videoFeed {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            border: 2px solid #fff;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Surveillance App</h1>
+    <div>
+        <button onclick="startVideoFeed()">Start Video Feed</button>
+        <button onclick="stopVideoFeed()">Stop Video Feed</button>
+    </div>
+    <img id="videoFeed" src="/video_feed" alt="Video Feed">
+    
+    <script>
+        function startVideoFeed() {
+            fetch('/start_feed', { method: 'POST' });
+            document.getElementById('videoFeed').src = "/video_feed";
+        }
+
+        function stopVideoFeed() {
+            fetch('/stop_feed', { method: 'POST' });
+            document.getElementById('videoFeed').src = "";
+        }
+    </script>
+</body>
+</html>
