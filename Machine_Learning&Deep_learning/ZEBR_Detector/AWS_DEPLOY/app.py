@@ -49,7 +49,7 @@ def gen_frames():
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('login.html')
 
 @app.route('/video_feed')
 def video_feed():
