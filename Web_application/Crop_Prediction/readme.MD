@@ -124,5 +124,5 @@ Deploy the web application on cloud platforms like AWS or Heroku.
 This project is licensed under the MIT License.
 
 ## Acknowledgments
-The dataset used in this project was provided by [source of dataset].
+The dataset used in this project was provided by [https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset].
 Special thanks to the open-source libraries that made this project possible.
