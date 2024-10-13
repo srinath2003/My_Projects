@@ -74,6 +74,7 @@ Based on this input, the application predicts the most suitable crop.
 
 ```bash
 The Predicted Crop is rice
+```
 ## Installation
 
 ### Prerequisites
