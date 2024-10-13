@@ -111,6 +111,10 @@ Click on "Predict" to see the crop prediction.
 ## Results
 The model was trained on the crop dataset and achieved the following metrics:
 Accuracy: 99.3%
+![Alt Text]()
+![Alt Text](image-url)
+
+
 The confusion matrix is displayed using a heatmap to visualize the model's performance.
 ## Future Improvements
 Add more features to the model, such as soil type, location, and season.
