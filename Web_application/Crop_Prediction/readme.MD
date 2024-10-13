@@ -72,9 +72,8 @@ Based on this input, the application predicts the most suitable crop.
 
 ### Example Usage:
 
-```bash
 The Predicted Crop is rice
-```
+
 ## Installation
 
 ### Prerequisites
@@ -91,7 +90,7 @@ The Predicted Crop is rice
 
 ```bash
 git clone https://github.com/srinath2003/My_Projects.git
-cd My_Projects/Machine_Learning&Deep_learning/ZEBR_Detector
+cd My_Projects/Machine_Learning&Deep_learning/Crop_Prediction
 ```
 
 ## Install Required Packages
@@ -105,22 +104,21 @@ python app.py
 ```
 Visit http://127.0.0.1:5000/ to interact with the app.
 
-Usage
+## Usage
 Open the web application in your browser.
 Enter the required input values (Nitrogen, Phosphorus, Potassium, temperature, etc.).
 Click on "Predict" to see the crop prediction.
-Results
+## Results
 The model was trained on the crop dataset and achieved the following metrics:
-
 Accuracy: 99.3%
 The confusion matrix is displayed using a heatmap to visualize the model's performance.
-Future Improvements
+## Future Improvements
 Add more features to the model, such as soil type, location, and season.
 Integrate with a larger, real-time dataset to improve accuracy.
 Deploy the web application on cloud platforms like AWS or Heroku.
-License
+## License
 This project is licensed under the MIT License.
 
-Acknowledgments
+## Acknowledgments
 The dataset used in this project was provided by [source of dataset].
 Special thanks to the open-source libraries that made this project possible.
