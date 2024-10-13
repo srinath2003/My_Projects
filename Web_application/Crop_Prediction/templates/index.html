@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+ <div class="login">
+    <h1>Crop Prediction Model</h1>
+    <form action="{{ url_for('predict')}}" method="post">
+        <input type="text" name="Nitrogen" placeholder="Nitrogen in ratio" required="required" />
+        <input type="text" name="Phosphorus" placeholder="Phosphorus in ratio" required="required" />
+        <input type="text" name="Potassium" placeholder="Potassium in ratio" required="required" />
+        <input type="text" name="temperature" placeholder="Temperature (celsius)" required="required" />
+        <input type="text" name="humidity" placeholder="Humidity %" required="required" />
+        <input type="text" name="pH" placeholder="pH 0-14" required="required" />
+        <input type="text" name="rainfall" placeholder="Rainfall in mm" required="required" />
+        <button type="submit">Predict</button>
+    </form>
+
+   <h1 id="predi">{{ prediction_text }}</h1>
+ </div>
+</body>
+</html>

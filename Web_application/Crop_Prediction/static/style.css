@@ -1,0 +1,59 @@
+html, body {
+  height: 100%; /* Set full height for the html and body */
+  margin: 0; /* Reset margins */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-image: url("farm.png");
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image in the background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+h1 {
+  text-align: center;
+  font-size: 500%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  color: white; /* Ensure the text is visible against the background */
+  margin: 0; /* Reset margins */
+  padding-top: 20px; /* Add some space above if needed */
+}
+
+.login {
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 20px; /* Space between input fields */
+  align-items: center; /* Center items vertically in their grid cells */
+}
+
+input {
+  width: 30%; /* Set input fields to take the full width of their grid cell */
+  padding: 12px 20px;
+  margin: 8px 0; /* Space between inputs */
+  margin-right:2ch;
+  font-size: 18px;
+  box-sizing: border-box;
+  border-bottom: 4px solid black;
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for visibility */
+}
+
+button {
+  grid-column: span 2; /* Make the button span both columns */
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 15px   210px; /* Vertical padding only */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 20px; /* Space above the button */
+}
+
+#predi {
+  grid-column: span 2; /* Make the prediction text span both columns */
+  margin-top: 20px; /* Space above the prediction text */
+  color: rgba(255, 204, 1, 0.964);
+}
