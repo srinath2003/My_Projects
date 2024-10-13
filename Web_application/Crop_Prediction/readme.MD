@@ -111,8 +111,8 @@ Click on "Predict" to see the crop prediction.
 ## Results
 The model was trained on the crop dataset and achieved the following metrics:
 Accuracy: 99.3%
-![Alt Text]()
-![Alt Text](image-url)
+![Alt Text]('Web_application/Crop_Prediction/results/Screenshot (61).png')
+![Alt Text]('Web_application/Crop_Prediction/results/Screenshot (62).png')
 
 
 The confusion matrix is displayed using a heatmap to visualize the model's performance.
